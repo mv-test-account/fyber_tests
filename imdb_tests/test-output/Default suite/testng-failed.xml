@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="imdb_tests.imdb_top250_tests">
+        <methods>
+          <include name="testOfTop250"/>
+          <include name="afterMethod"/>
+          <include name="testOfSorting"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- imdb_tests.imdb_top250_tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

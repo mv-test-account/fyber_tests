@@ -1,0 +1,16 @@
+package imdb_tests;
+
+import org.testng.annotations.Test;
+
+public class imdb_top250_testsTest {
+
+  @Test
+  public void testOfSorting() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void testOfTop250() {
+    throw new RuntimeException("Test not implemented");
+  }
+}
