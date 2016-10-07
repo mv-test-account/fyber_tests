@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29454" started-at="2016-10-07T06:30:57Z" finished-at="2016-10-07T06:31:27Z">
+  <suite name="Suite" duration-ms="29567" started-at="2016-10-07T08:51:09Z" finished-at="2016-10-07T08:51:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29454" started-at="2016-10-07T06:30:57Z" finished-at="2016-10-07T06:31:27Z">
+    <test name="Test" duration-ms="29567" started-at="2016-10-07T08:51:09Z" finished-at="2016-10-07T08:51:39Z">
       <class name="imdb_tests.imdb_top250_tests">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="6239" started-at="2016-10-07T08:30:51Z" finished-at="2016-10-07T08:30:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="6690" started-at="2016-10-07T10:51:03Z" finished-at="2016-10-07T10:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testOfTop250()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfTop250" duration-ms="66" started-at="2016-10-07T08:30:57Z" description="Check if at least 1 movie is in the list of movies on the IMDb page top 250 " finished-at="2016-10-07T08:30:57Z">
+        <test-method status="PASS" signature="testOfTop250()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfTop250" duration-ms="59" started-at="2016-10-07T10:51:09Z" description="Check if at least 1 movie is in the list of movies on the IMDb page top 250 " finished-at="2016-10-07T10:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfTop250 -->
-        <test-method status="PASS" signature="testOfSorting()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfSorting" duration-ms="26787" started-at="2016-10-07T08:30:57Z" description="Try to sort by any available option in the Sort by dropdown option on page Top rated movies and check if at least 1 movie is in the list" finished-at="2016-10-07T08:31:24Z">
+        <test-method status="PASS" signature="testOfSorting()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfSorting" duration-ms="26750" started-at="2016-10-07T10:51:09Z" description="Try to sort by any available option in the Sort by dropdown on page Top rated movies and check if at least 1 movie is in the list" finished-at="2016-10-07T10:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfSorting -->
-        <test-method status="PASS" signature="testOfGenre()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfGenre" duration-ms="2582" started-at="2016-10-07T08:31:24Z" description="Try to click on genre western and display and check if at least 1 movie is in the list" finished-at="2016-10-07T08:31:27Z">
+        <test-method status="PASS" signature="testOfGenre()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="testOfGenre" duration-ms="2742" started-at="2016-10-07T10:51:36Z" description="Try to click on genre western and display and check if at least 1 movie is in the list" finished-at="2016-10-07T10:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOfGenre -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="816" started-at="2016-10-07T08:31:27Z" finished-at="2016-10-07T08:31:28Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:imdb_tests.imdb_top250_tests@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="888" started-at="2016-10-07T10:51:39Z" finished-at="2016-10-07T10:51:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

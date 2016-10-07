@@ -4,11 +4,10 @@
   <test name="Test">
     <classes>
       <class name="imdb_tests.imdb_top250_tests">
-          <methods>	          	
-	          	<include name="testOfTop250" />
-				<include name="testOfSorting" />  
-	          	<include name="testOfGenre" /> 
-	          	
+          <methods>	    
+	        <include name="testOfTop250" />             		          	
+			<include name="testOfSorting" />   
+			<include name="testOfGenre" />           		          	
           </methods>  
         </class>  
     </classes>
