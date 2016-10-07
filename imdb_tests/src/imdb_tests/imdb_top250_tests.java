@@ -64,6 +64,7 @@ public class imdb_top250_tests {
 	  
 	  @Test(description="Try to click on genre western and display and check if at least 1 movie is in the list")
 	  public void testOfGenre()throws Exception  {
+		  
 		  try{
 		  driver.findElement(By.linkText("Western")).click();
 		  } catch(Exception e){
