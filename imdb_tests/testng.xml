@@ -6,8 +6,9 @@
       <class name="imdb_tests.imdb_top250_tests">
           <methods>	          	
 	          	<include name="testOfTop250" />
-				<include name="testOfSorting" />
-	          	<include name="testOfGenre" />   
+				<include name="testOfSorting" />  
+	          	<include name="testOfGenre" /> 
+	          	
           </methods>  
         </class>  
     </classes>
